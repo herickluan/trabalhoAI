@@ -1,0 +1,46 @@
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #ff0000 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #1100ff;
+    --cor-texto: #1100ff;
+    
+
+}
+
+body {
+    background-image: url(img/f1-23-0z-1440x900.jpg);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     ;
+}
+
+.caixa-principal{
+    background-image: url(img/depositphotos_3245596-stock-photo-checkered-flag.jpg) ;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+h1{color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    
+}
